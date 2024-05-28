@@ -17,7 +17,7 @@ body {
 .header-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: rgba(255, 105, 0, 255);
   align-items: center;
   font-weight: 600;
@@ -43,6 +43,10 @@ body {
 }
 
 /* MAIN */
+
+.content {
+  position: relative;
+}
 
 .main-container {
   width: 100%;
@@ -80,6 +84,49 @@ body {
   margin-bottom: 50px;
 }
 
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: rgba(0, 128, 0, 255);
+}
+
+.label {
+  color: white;
+  position: absolute;
+  padding: 5px;
+  top: 495px;
+  left: 20px;
+  display: flex;
+  z-index: 1;
+}
+
+.labels {
+  color: white;
+  position: absolute;
+  padding: 5px;
+  top: 495px;
+  left: 492px;
+  z-index: 1;
+}
+
+.labels-2 {
+  color: white;
+  position: absolute;
+  padding: 5px;
+  top: 495px;
+  left: 71px;
+}
+
+.labels-3 {
+  color: white;
+  position: absolute;
+  padding: 5px;
+  top: 495px;
+  left: 20px;
+}
+
 /* FOOTER */
 
 .footer-container {
@@ -90,7 +137,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   background-color: rgba(26, 26, 26, 255);
-  height: 100px;
   justify-content: space-around;
   align-items: center;
 }
@@ -99,11 +145,15 @@ body {
   margin-top: 6px;
 }
 
-.col-p10 .content p {
+.col-p35 {
+  padding: 35px;
+}
+
+.col-p35 .content p {
   color: white;
 }
 
-.col-p10 .content h4 {
+.col-p35 .content h4 {
   margin-bottom: 5px;
   color: white;
 }
