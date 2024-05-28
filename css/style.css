@@ -139,6 +139,10 @@ body {
   cursor: pointer;
 }
 
+.heart:hover {
+  color: red;
+}
+
 .d-none {
   display: none;
 }
