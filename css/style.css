@@ -139,6 +139,22 @@ body {
   cursor: pointer;
 }
 
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.content:hover .d-block {
+  display: none;
+}
+
+.content:hover .d-none {
+  display: block;
+}
+
 /* FOOTER */
 
 .footer-container {
