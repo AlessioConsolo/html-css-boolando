@@ -151,6 +151,7 @@ body {
   background-color: rgba(26, 26, 26, 255);
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 1px;
 }
 
 .icons {
