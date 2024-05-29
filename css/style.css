@@ -21,6 +21,9 @@ body {
   background-color: rgba(255, 105, 0, 255);
   align-items: center;
   font-weight: 600;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
 }
 
 .col-p20 {
@@ -43,6 +46,10 @@ body {
 }
 
 /* MAIN */
+
+main {
+  padding-top: 50px;
+}
 
 .content {
   position: relative;
